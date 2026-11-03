@@ -4,9 +4,51 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Ćwiczenie 3_1</title>
+
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 800px;
+      }
+      th, td {
+        border: 1px solid #ccc;
+        padding: 10px 14px;
+        text-align: left;
+      }
+      th {
+        background-color: #f4f4f4;
+      }
+      form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
-    <p>Bigg Boss</p>
+    <form id="capital-form">
+      <label for="capital-input">Stolica:</label>
+      <input type="text" id="capital-input" required>
+      <button type="submit">Szukaj</button>
+    </form>
+    <p id="error-message" class="error"></p>
+    <br>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Capital</th>
+          <th>Population</th>
+          <th>Region</th>
+          <th>Subregion</th>
+        </tr>
+      </thead>
+      <tbody id="country-tbody">
+      </tbody>
+    </table>
+    
     <script src="script.js"></script>
   </body>
 </html>
