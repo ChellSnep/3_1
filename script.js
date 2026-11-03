@@ -1,4 +1,4 @@
-const API_URL = "https://api.restcountries.com/countries/v5";
+const API_URL = "KLUCZ API WLASNY";
 const API_KEY = "rc_live_4b7c9b5c9c2b48c0b48069ae0491af36";
 
 const form = document.getElementById("capital-form");
