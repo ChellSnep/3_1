@@ -1,1 +1,1 @@
-<!DOCTYPE html>
+// Add the exercise JavaScript here.
